@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+const App = require('../lib/pokemoji');
+App.main('ja', 'sun-moon', 'icon', 'png')
+  .then(result => { })
+  .catch(error => {
+    console.log(error);
+  });

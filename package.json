@@ -1,0 +1,18 @@
+{
+  "name": "slack-pokemoji",
+  "version": "1.0.0",
+  "repository": "git@github.com:loasnir/slack-pokemoji.git",
+  "author": "loasnir <loasnir@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "bin/pokemoji"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "fs-extra": "^8.1.0",
+    "js-yaml": "^3.13.1",
+    "pokemon": "^2.0.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
